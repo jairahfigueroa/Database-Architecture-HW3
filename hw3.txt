@@ -1,0 +1,13 @@
+Marketcap = weak entity
+Wallets = weak entity
+Users = weak entity
+
+Address is considered as a natural key
+
+user_name is a composite attribute
+
+ATH is a multi-valued attribute as it can have more than value in a market cap. 
+We can say that market cap changes from time to time and it signifies that it can be value more than one
+
+name_tag can also be a derived attribute as it can be derived from the "address".  This name_tag has this specific address that can 
+we can identify and pertains to one another.
